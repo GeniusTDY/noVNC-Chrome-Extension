@@ -17,6 +17,23 @@ Many companies, projects and products have integrated noVNC including
 [the Projects and companies wiki page](https://github.com/novnc/noVNC/wiki/Projects-and-companies-using-noVNC)
 for a more complete list with additional info and links.
 
+### Chrome Extension
+
+本分支在 noVNC v1.7.0 基础上封装为 **Chrome 扩展**（Manifest V3），
+无需任何浏览器插件即可在标签页中直接访问远程桌面。
+
+- **连接方式**：点击工具栏图标打开启动器页，或右键 `ws://` / `wss://` 链接、
+  选中的 `host:port` 文本一键连接。
+- **常用服务器**：启动器页支持保存 / 编辑 / 删除常用服务器列表。
+- **功能完整**：复用 noVNC 全部能力，包括远程桌面渲染、键鼠输入、剪贴板双向传输等。
+
+**加载方式**：打开 `chrome://extensions`，开启"开发者模式"，
+选择"加载已解压的扩展程序"，指向本仓库目录即可。
+
+> 为兼容 Manifest V3 的 CSP 限制，`vnc.html` / `vnc_lite.html` 中原本内联的
+> 启动脚本已外置为 `app/main.js` / `app/vnc_lite.js`，对浏览器直接访问 noVNC
+> 无任何影响。
+
 ### Table of contents
 
 - [News/help/contact](#newshelpcontact)
