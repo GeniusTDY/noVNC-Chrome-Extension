@@ -21,7 +21,6 @@ for a more complete list with additional info and links.
 
 - [News/help/contact](#newshelpcontact)
 - [Features](#features)
-- [Screenshots](#screenshots)
 - [Browser requirements](#browser-requirements)
 - [Server requirements](#server-requirements)
 - [Quick start](#quick-start)
@@ -75,17 +74,6 @@ profits such as:
 * Touch gestures for emulating common mouse actions
 * Licensed mainly under the [MPL 2.0](http://www.mozilla.org/MPL/2.0/), see
   [the license document](LICENSE.txt) for details
-
-### Screenshots
-
-Running in Firefox before and after connecting:
-
-<img src="http://novnc.com/img/noVNC-1-login.png" width=400>&nbsp;
-<img src="http://novnc.com/img/noVNC-3-connected.png" width=400>
-
-See more screenshots
-[here](http://novnc.com/screenshots.html).
-
 
 ### Browser requirements
 
